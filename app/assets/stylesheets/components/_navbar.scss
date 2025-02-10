@@ -18,16 +18,12 @@
 
   .navbar-right-card {
 
-    ul {
+    display: flex;
 
-      display: flex;
-
-      li {
-        a {
-          text-decoration: none;
-          color: #e6b7a3;
-        }
-      }
+    a {
+        text-decoration: none;
+        color: #e6b7a3;
     }
+
   }
 }
