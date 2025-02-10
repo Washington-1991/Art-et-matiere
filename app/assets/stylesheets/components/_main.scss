@@ -2,6 +2,8 @@
 
 .main {
   margin: 0 80px;
+  display: flex;
+  flex-direction: column;
 
   .main-card-buttons {
     height: 10vh;
