@@ -61,6 +61,23 @@
         width: 50%;
         border: 1px solid black;
 
+        a {
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+        }
+
+        a:hover {
+          img {
+            transform: scale(1.3);
+            transition: transform 0.8s ease;
+          }
+        }
+
 
       }
 
