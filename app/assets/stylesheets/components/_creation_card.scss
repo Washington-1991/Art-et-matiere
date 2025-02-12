@@ -28,6 +28,7 @@
       background-color: #ffffff;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       text-align: center;
+      border: 2px solid black;
 
       // imagen posee 50% del tamaño de la tarjeta
       .creation-card-img {
@@ -67,6 +68,24 @@
 
         p {
           color: #9a5f45;
+        }
+
+      }
+
+      // boton posee 15% del tamaño de la tarjeta
+      .creation-card-button {
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          background-color: #9a5f45;
+          color: #ffffff;
+          border: none;
+          padding: 8px 16px;
+          border-radius: 4px;
+          cursor: pointer;
         }
 
       }
