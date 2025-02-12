@@ -32,9 +32,6 @@
       // imagen posee 50% del tamaño de la tarjeta
       .creation-card-img {
         height: 50%;
-        border: 2px solid black;
-
-
         overflow: hidden;
         margin: 16px;
 
@@ -53,7 +50,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid black;
 
         h3 {
           color: #9a5f45;
