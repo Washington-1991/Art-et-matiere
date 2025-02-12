@@ -45,9 +45,9 @@
 
       }
 
-      // titulo posee 20% del tamaño de la tarjeta
+      // titulo posee 25% del tamaño de la tarjeta
       .creation-card-title {
-        height: 20%;
+        height: 25%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -57,6 +57,8 @@
         }
 
       }
+
+      // descripcion precio 10% del tamaño de la tarjeta
 
     }
   }
