@@ -59,7 +59,17 @@
       }
 
       // descripcion precio 10% del tamaño de la tarjeta
+      .creation-card-price {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        p {
+          color: #9a5f45;
+        }
+
+      }
     }
   }
 
