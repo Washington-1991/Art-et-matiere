@@ -12,39 +12,40 @@
 
   .home-intro-card {
 
-
     display: flex;
     justify-content: center;
     align-items: center;
 
+    .home-intro-card-left {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  }
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
 
-  .home-intro-card-left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
     }
 
-  }
+    .home-intro-card-right {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-  .home-intro-card-right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    p {
-      font-size: 16px;
-      color: #f3d2c3;
+      p {
+        font-size: 16px;
+        color: #f3d2c3;
+      }
     }
+
+
   }
+
+
 }
