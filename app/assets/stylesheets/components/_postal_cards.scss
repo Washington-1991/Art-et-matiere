@@ -3,6 +3,14 @@
 .postal-container {
   height: 500px;
   width: 100%;
-  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+
+  .postal-cards-container {
+    height: 100%;
+    margin: 0 80px;
+    border: 1px solid black;
+
+  }
 
 }
