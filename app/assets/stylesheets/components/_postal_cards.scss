@@ -9,10 +9,18 @@
   .postal-cards-container {
     height: 100%;
     margin: 0 80px;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .postal-card {
+      height: 100%;
+      width: 33%;
+
+      border: 1px solid black;
+
+
+    }
 
   }
 
