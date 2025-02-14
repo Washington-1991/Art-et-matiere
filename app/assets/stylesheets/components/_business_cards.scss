@@ -19,22 +19,23 @@
       height: 200px;
       width: 300px;
       border: 2px solid #9a5f45;
-      margin-left: 0;
-
+      float: left;
     }
+
 
     .business-card-livraison {
       height: 200px;
       width: 300px;
       border: 2px solid #9a5f45;
 
+
     }
 
     .business-card-social-media {
       height: 200px;
       width: 300px;
-       border: 2px solid #9a5f45;
-       right: 0;
+      border: 2px solid #9a5f45;
+      float: right;
 
     }
 
