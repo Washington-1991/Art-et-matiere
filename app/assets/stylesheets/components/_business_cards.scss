@@ -19,27 +19,23 @@
       height: 200px;
       width: 300px;
       border: 2px solid #9a5f45;
-      float: left;
+      margin-right: auto; // Empuja esta tarjeta a la izquierda
     }
-
 
     .business-card-livraison {
       height: 200px;
       width: 300px;
       border: 2px solid #9a5f45;
-
-
     }
 
     .business-card-social-media {
       height: 200px;
       width: 300px;
       border: 2px solid #9a5f45;
-      float: right;
-
+      margin-left: auto; // Empuja esta tarjeta a la derecha
     }
-
   }
+
 
 
 
