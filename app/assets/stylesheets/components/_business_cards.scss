@@ -9,26 +9,32 @@
   margin: 8px 80px;
   background-color: #f3d2c3;
 
-  .business-card-wp {
+  .business-card {
 
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
+    .business-card-wp {
+
+      height: 200px;
+      width: 300px;
+      border: 2px solid black;
+
+    }
+
+    .business-card-livraison {
+      height: 200px;
+      width: 300px;
+      border: 2px solid black;
+
+    }
+
+    .business-card-social-media {
+      height: 200px;
+      width: 300px;
+      border: 2px solid black;
+
+    }
 
   }
 
-  .business-card-livraison {
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
 
-  }
-
-  .business-card-social-media {
-    height: 200px;
-    width: 300px;
-    border: 2px solid black;
-
-  }
 
 }
