@@ -75,6 +75,13 @@
       height: 200px;
       width: 358px;
       border: 1px solid #9a5f45;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        color: #9a5f45;
+      }
     }
 
     .business-card-social-media {
