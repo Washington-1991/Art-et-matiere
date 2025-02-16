@@ -44,6 +44,9 @@
         a {
           height: 50%;
           width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
           button {
             height: 32px;
