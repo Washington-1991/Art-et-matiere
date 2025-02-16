@@ -92,6 +92,19 @@
       width: 358px;
       border: 1px solid #9a5f45;
       margin-left: auto; // Empuja esta tarjeta a la derecha
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #9a5f45;
+      }
     }
   }
 
