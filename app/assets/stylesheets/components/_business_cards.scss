@@ -108,7 +108,8 @@
         font-size: 16px;
       }
 
-      .business-card-social-media {
+      .business-card-social-media-buttons
+       {
         height: 50%;
         width: 100%;
         display: flex;
@@ -122,6 +123,12 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          font-family: "Dancing Script", serif;
+          font-optical-sizing: auto;
+          font-weight: 400;
+          font-style: normal;
+
+
 
         }
       }
