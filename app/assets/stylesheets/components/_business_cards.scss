@@ -1,5 +1,4 @@
 // SCSS correspondiente a business cards
-
 .business-card-container {
   height: 250px;
   width: 100%;
@@ -31,7 +30,6 @@
         justify-content: center;
         align-items: center;
         color: #9a5f45;
-
       }
 
       .button-wp {
@@ -51,7 +49,6 @@
 
           button {
             padding: 8px 16px;
-
             background-color: #e6b7a3;
             color: white;
             border: none;
@@ -64,11 +61,8 @@
               color: #f3d2c3;
             }
           }
-
         }
-
       }
-
     }
 
     .business-card-livraison {
@@ -91,7 +85,7 @@
       height: 200px;
       width: 358px;
       border: 1px solid #9a5f45;
-      margin-left: auto; // Empuja esta tarjeta a la derecha
+      margin-left: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -106,9 +100,11 @@
         align-items: center;
         color: #9a5f45;
         font-size: 16px;
+        font-family: "Dancing Script", serif; // Aplicando la nueva fuente
+        font-weight: 400;
       }
 
-      .business-card-social-media-buttons{
+      .business-card-social-media-buttons {
         height: 50%;
         width: 100%;
         display: flex;
@@ -122,16 +118,16 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          font-family: "Dancing Script", serif;
-          font-optical-sizing: auto;
-          font-weight: 400;
-          font-style: normal;
-
-
-
         }
       }
     }
   }
+}
 
+// Estilo para la fuente Dancing Script
+.dancing-script {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
