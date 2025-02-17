@@ -8,6 +8,7 @@
   .main-card-buttons {
     height: 10vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #f3d2c3;
