@@ -245,6 +245,66 @@
   }
 }
 
+@media screen and (max-width: 608px) {
+  .main {
+
+    .main-card-buttons {
+
+      a {
+      font-size: 20px;
+      }
+
+    }
+
+    .main-card-container {
+
+      .main-card-left {
+
+        a {
+
+        }
+
+        a:hover {
+
+        }
+
+      }
+
+      .main-card-right {
+
+        .main-card-right-top {
+
+          a {
+
+          }
+
+          a:hover {
+
+          }
+
+
+        }
+
+        .main-card-right-bottom {
+
+          a {
+
+          }
+
+          a:hover {
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+  }
+}
+
 @media screen and (max-width: 480px) {
   .main {
 
