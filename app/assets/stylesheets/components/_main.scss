@@ -126,6 +126,72 @@
 
 @media screen and (max-width: 820px) {
 
+.main {
+  margin: 0 80px;
+  display: flex;
+  flex-direction: column;
+
+  .main-card-buttons {
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3d2c3;
+
+    a {
+     font-size: 24px;
+    }
+
+  }
+
+  .main-card-container {
+
+    .main-card-left {
+
+      a {
+
+      }
+
+      a:hover {
+
+      }
+
+    }
+
+    .main-card-right {
+
+      .main-card-right-top {
+
+        a {
+
+        }
+
+        a:hover {
+
+        }
+
+
+      }
+
+      .main-card-right-bottom {
+
+        a {
+
+        }
+
+        a:hover {
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
 }
 
 @media screen and (max-width: 768px) {
