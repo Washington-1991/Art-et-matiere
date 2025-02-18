@@ -19,7 +19,7 @@
       font-family: "Dancing Script", serif; // Aplicando la nueva fuente
       font-weight: 600;
       text-decoration: none;
-      font-size: clamp(20px, 4vw, 32px); // Mínimo 20px, ideal 4vw, máximo 32px      letter-spacing: 1px;
+      font-size: 4%; // Mínimo 20px, ideal 4vw, máximo 32px      letter-spacing: 1px;
     }
 
   }
@@ -245,65 +245,7 @@
   }
 }
 
-@media screen and (max-width: 608px) {
-  .main {
 
-    .main-card-buttons {
-
-      a {
-      font-size: 16px;
-      }
-
-    }
-
-    .main-card-container {
-
-      .main-card-left {
-
-        a {
-
-        }
-
-        a:hover {
-
-        }
-
-      }
-
-      .main-card-right {
-
-        .main-card-right-top {
-
-          a {
-
-          }
-
-          a:hover {
-
-          }
-
-
-        }
-
-        .main-card-right-bottom {
-
-          a {
-
-          }
-
-          a:hover {
-
-          }
-
-        }
-
-      }
-
-    }
-
-
-  }
-}
 
 @media screen and (max-width: 480px) {
   .main {
