@@ -110,7 +110,6 @@
   .creations-card-container {
     margin: 0 8px;
     width: 100%;
-    border: 1px solid black;
 
     .creation-card-title {
       height: 100%;
@@ -118,6 +117,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      border: 1px solid black;
+
 
       h2 {
         color: #9a5f45;
