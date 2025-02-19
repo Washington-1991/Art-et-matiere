@@ -313,10 +313,8 @@
     .creation-cards-section {
       width: 100vw;
       margin: 0 8px;
-      display: flex;
       flex-wrap: wrap;
       justify-content: center; // Centra las tarjetas en la línea
-      padding: 16px;
 
       .creation-card {
         height: 350px;
