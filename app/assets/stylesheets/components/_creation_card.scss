@@ -118,7 +118,6 @@
 
     .creation-cards-section {
       width: 100%;
-      border: 1px solid black;
       display: flex;
       flex-wrap: wrap;
       margin: 0;
@@ -127,11 +126,6 @@
       .creation-card {
         height: 250px;
         width: 22%;
-        background-color: #ffffff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        margin: 0 8px;
-        border: 1px solid black;
 
         // imagen posee 50% del tamaño de la tarjeta
         .creation-card-img {
