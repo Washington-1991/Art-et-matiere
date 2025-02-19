@@ -304,60 +304,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .creations-card-container {
-
-    .creation-card-title {
-
-      h2 {
-
-      }
-
-    }
-
-    .creation-cards-section {
-
-      .creation-card {
-
-        // imagen posee 50% del tamaño de la tarjeta
-        .creation-card-img {
-
-          img {
-
-          }
-
-        }
-
-        // titulo posee 25% del tamaño de la tarjeta
-        .creation-card-title-article {
-
-          h3 {
-
-          }
-
-        }
-
-        // descripcion precio 10% del tamaño de la tarjeta
-        .creation-card-price {
-
-
-          p {
-
-          }
-
-        }
-
-        // boton posee 15% del tamaño de la tarjeta
-        .creation-card-button {
-
-          button {
-
-          }
-
-        }
-      }
-    }
-
-  }
 
   .creations-card-container {
     margin: 8px;
