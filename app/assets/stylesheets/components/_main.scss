@@ -122,6 +122,81 @@
 
 @media screen and (max-width: 1024px) {
 
+  .main {
+
+    .main-card-buttons {
+
+      a {
+
+      }
+
+    }
+
+    .main-card-container {
+
+      .main-card-left {
+
+        a {
+
+          img {
+
+          }
+
+        }
+
+        a:hover {
+          img {
+
+          }
+        }
+
+      }
+
+      .main-card-right {
+
+        .main-card-right-top {
+
+          a {
+
+            img {
+
+            }
+
+          }
+
+          a:hover {
+            img {
+
+            }
+          }
+
+
+        }
+
+        .main-card-right-bottom {
+
+          a {
+
+            img {
+
+            }
+
+          }
+
+          a:hover {
+            img {
+
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+
+  }
 }
 
 @media screen and (max-width: 768px) {
