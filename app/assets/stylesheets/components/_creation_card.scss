@@ -136,7 +136,6 @@
       flex-wrap: wrap;
       justify-content: center; // Centra las tarjetas en la línea
       padding: 16px;
-      border: 1px solid black;
 
       .creation-card {
         height: 50%;
@@ -189,6 +188,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          border: 1px solid black;
+
 
           button {
             background-color: #9a5f45;
