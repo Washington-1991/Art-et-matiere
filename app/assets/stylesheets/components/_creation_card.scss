@@ -116,7 +116,6 @@
     }
 
     .creation-cards-section {
-      border: 1px solid black;
 
       .creation-card {
         height: 400px;
@@ -125,6 +124,8 @@
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         text-align: center;
         margin: 0 8px;
+        border: 1px solid black;
+
 
 
         // imagen posee 50% del tamaño de la tarjeta
