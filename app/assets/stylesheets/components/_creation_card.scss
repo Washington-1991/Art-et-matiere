@@ -134,20 +134,18 @@
       margin: 0 8px;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center; // Centra las tarjetas en la línea
       padding: 16px;
       border: 1px solid black;
 
-
       .creation-card {
         height: 300px;
-        width: 25%;
+        width: 48%; // 48% para que haya espacio entre las tarjetas
         background-color: #ffffff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         text-align: center;
         margin: 8px;
 
-
-        // imagen posee 50% del tamaño de la tarjeta
         .creation-card-img {
           height: 50%;
           overflow: hidden;
@@ -157,29 +155,24 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-
           }
-
         }
 
-        // titulo posee 25% del tamaño de la tarjeta
         .creation-card-title-article {
           height: 20%;
           display: flex;
           justify-content: center;
           align-items: center;
           color: #9a5f45;
-          font-family: "Dancing Script", serif; // Aplicando la nueva fuente
+          font-family: "Dancing Script", serif;
           font-weight: 600;
-          font-size: 4vw;
+          font-size: 2vw; // Ajuste de tamaño del texto
 
           h3 {
             color: #9a5f45;
           }
-
         }
 
-        // descripcion precio 10% del tamaño de la tarjeta
         .creation-card-price {
           height: 5%;
           display: flex;
@@ -189,10 +182,8 @@
           p {
             color: #9a5f45;
           }
-
         }
 
-        // boton posee 15% del tamaño de la tarjeta
         .creation-card-button {
           height: 10%;
           display: flex;
@@ -207,10 +198,10 @@
             border-radius: 4px;
             cursor: pointer;
           }
-
         }
       }
     }
+
 
   }
 }
