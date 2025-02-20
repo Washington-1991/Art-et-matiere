@@ -106,92 +106,21 @@
 
 @media screen  and (max-width: 1024px) {
   .creations-card-container {
-    margin: 0 66px 8px 66px;
-
-    .creation-card-title {
-
-      h2 {
-
-      }
-
-    }
+    margin: 0 40px; // Reduce el margen para mejor ajuste
 
     .creation-cards-section {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      margin: 0;
-      padding: 0;
-
-      .creation-card {
-        height: 250px;
-        width: 22%;
-
-        // imagen posee 50% del tamaño de la tarjeta
-        .creation-card-img {
-
-          img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-
-          }
-
-        }
-
-        // titulo posee 25% del tamaño de la tarjeta
-        .creation-card-title-article {
-          height: 15%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          h2 {
-            color: #9a5f45;
-            font-family: "Dancing Script", serif; // Aplicando la nueva fuente
-            font-weight: 600;
-            font-size: 3vw;
-          }
-
-        }
-
-        // descripcion precio 10% del tamaño de la tarjeta
-        .creation-card-price {
-          height: 5%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin: 4px;
-
-          p {
-            color: #9a5f45;
-          }
-
-        }
-
-        // boton posee 15% del tamaño de la tarjeta
-        .creation-card-button {
-          height: 6%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          button {
-            background-color: #9a5f45;
-            color: #ffffff;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1.2vw;
-          }
-
-        }
-      }
+      margin: 0 auto;
+      flex-wrap: wrap;  // Permite que las tarjetas se ajusten mejor
     }
 
+    .creation-card {
+      width: 45%; // Se muestran dos tarjetas por fila
+      height: 350px; // Reduce un poco la altura
+    }
   }
 }
+
+
 
 @media screen and (max-width: 768px) {
   .creations-card-container {
