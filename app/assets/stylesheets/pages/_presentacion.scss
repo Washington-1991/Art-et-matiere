@@ -150,9 +150,9 @@
   .home-intro-container {
 
     .home-intro-card {
+      flex-direction: column;
 
       .home-intro-card-left {
-        flex-direction: column;
 
         img {
 
