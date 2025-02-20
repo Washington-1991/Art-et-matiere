@@ -10,7 +10,6 @@
   align-items: center;
 
   .home-intro-card {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,14 +106,6 @@
 @media screen and (max-width: 768px) {
 
   .home-intro-container {
-
-    height: 300px;
-    width: 100%;
-    background-color: #9a5f45;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
 
     .home-intro-card {
       width: 50%;
