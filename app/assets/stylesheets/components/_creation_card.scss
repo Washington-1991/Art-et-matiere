@@ -195,7 +195,10 @@
       .creation-card {
         height: 350px;
         width: 45%; // 48% para que haya espacio entre las tarjetas
-
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 8px;
 
         .creation-card-img {
           height: 50%;
