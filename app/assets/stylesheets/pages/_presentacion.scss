@@ -147,5 +147,27 @@
 }
 
 @media screen and (max-width: 480px) {
+  .home-intro-container {
 
+    .home-intro-card {
+
+      .home-intro-card-left {
+        flex-direction: column;
+
+        img {
+
+        }
+
+      }
+
+      .home-intro-card-right {
+
+        p {
+
+        }
+      }
+
+    }
+
+  }
 }
