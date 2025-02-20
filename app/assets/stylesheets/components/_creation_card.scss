@@ -61,6 +61,8 @@
 
         h3 {
           color: #9a5f45;
+          font-family: "Dancing Script", serif;
+          font-weight: 600;
         }
 
       }
@@ -207,15 +209,10 @@
         .creation-card-title-article {
           height: 20%;
           display: flex;
-          justify-content: center;
-          align-items: center;
-          color: #9a5f45;
-          font-family: "Dancing Script", serif;
-          font-weight: 600;
           font-size: 2vw; // Ajuste de tamaño del texto
 
           h3 {
-            color: #9a5f45;
+
           }
         }
 
