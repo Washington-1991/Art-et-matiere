@@ -100,7 +100,71 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .creations-card-container {
+    margin: 0 66px 8px 66px;
 
+    .creation-card-title {
+
+      h2 {
+
+      }
+
+    }
+
+    .creation-cards-section {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+
+      .creation-card {
+        height: 250px;
+        width: 22%;
+
+        // imagen posee 50% del tamaño de la tarjeta
+        .creation-card-img {
+
+          img {
+
+          }
+
+        }
+
+        // titulo posee 25% del tamaño de la tarjeta
+        .creation-card-title-article {
+          height: 15%;
+
+          h2 {
+
+            font-size: 3vw;
+          }
+
+        }
+
+        // descripcion precio 10% del tamaño de la tarjeta
+        .creation-card-price {
+          margin: 4px;
+
+          p {
+
+          }
+
+        }
+
+        // boton posee 15% del tamaño de la tarjeta
+        .creation-card-button {
+          height: 6%;
+
+          button {
+            font-size: 1.2vw;
+          }
+
+        }
+      }
+    }
+
+  }
 }
 
 @media screen  and (max-width: 1024px) {
