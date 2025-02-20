@@ -104,6 +104,56 @@
 
 @media screen and (max-width: 768px) {
 
+  .home-intro-container {
+
+    height: 300px;
+    width: 100%;
+    background-color: #9a5f45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .home-intro-card {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .home-intro-card-left {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        }
+
+      }
+
+      .home-intro-card-right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 16px;
+          color: #f3d2c3;
+        }
+      }
+
+
+    }
+
+
+  }
 }
 
 @media screen and (max-width: 480px) {
