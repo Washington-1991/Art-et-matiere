@@ -289,6 +289,7 @@
           button {
             height: clamp(40px, 4vw, 60px); // Altura mínima de 40px, adaptable hasta 60px
             width: clamp(120px, 16vw, 200px); // Ancho mínimo de 120px, adaptable hasta 200px
+            font-size: 4vw;
           }
         }
       }
