@@ -349,9 +349,9 @@
           margin: 16px 0;
 
           button {
-            padding: 16px 24px;
-            font-size: 16px;
-
+            height: clamp(40px, 4vw, 60px); // Altura mínima de 40px, adaptable hasta 60px
+            width: clamp(120px, 16vw, 200px); // Ancho mínimo de 120px, adaptable hasta 200px
+            font-size: 2vw;
           }
         }
       }
