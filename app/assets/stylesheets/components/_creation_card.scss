@@ -83,6 +83,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 10px 0; // Añadí padding para evitar que el botón se encoja demasiado
 
         button {
           background-color: #9a5f45;
@@ -91,8 +92,9 @@
           padding: 8px 16px;
           border-radius: 4px;
           cursor: pointer;
+          width: 80%; // Ajuste para que el botón mantenga buen tamaño
+          max-width: 200px;
         }
-
       }
     }
   }
