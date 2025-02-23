@@ -165,9 +165,119 @@
 }
 
 @media screen and (max-width: 768px) {
+  .creations-card-container {
 
+    .creation-card-title {
+
+      h2 {
+
+      }
+
+    }
+
+    .creation-cards-section {
+      flex-wrap: wrap;
+
+      .creation-card {
+        margin: 8px 0;
+        width: 44%;
+
+        // imagen posee 50% del tamaño de la tarjeta
+        .creation-card-img {
+
+          img {
+
+          }
+
+        }
+
+        // titulo posee 25% del tamaño de la tarjeta
+        .creation-card-title-article {
+
+          h2 {
+
+          }
+
+        }
+
+        // descripcion precio 10% del tamaño de la tarjeta
+        .creation-card-price {
+
+
+          p {
+
+          }
+
+        }
+
+        // boton posee 15% del tamaño de la tarjeta
+        .creation-card-button {
+
+          button {
+
+          }
+        }
+      }
+    }
+
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .creations-card-container {
 
+    .creation-card-title {
+
+      h2 {
+
+      }
+
+    }
+
+    .creation-cards-section {
+      flex-wrap: wrap;
+
+      .creation-card {
+        margin: 8px 0;
+        width: 44%;
+
+        // imagen posee 50% del tamaño de la tarjeta
+        .creation-card-img {
+
+          img {
+
+          }
+
+        }
+
+        // titulo posee 25% del tamaño de la tarjeta
+        .creation-card-title-article {
+
+          h2 {
+
+          }
+
+        }
+
+        // descripcion precio 10% del tamaño de la tarjeta
+        .creation-card-price {
+
+
+          p {
+
+          }
+
+        }
+
+        // boton posee 15% del tamaño de la tarjeta
+        .creation-card-button {
+
+          button {
+
+          }
+        }
+      }
+    }
+
+  }
 }
