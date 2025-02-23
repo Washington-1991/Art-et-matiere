@@ -7,14 +7,12 @@
   align-items: center;
   margin: 8px;
 
-
   .postal-cards-container {
     height: 100%;
     margin: 0 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
 
     .postal-card {
       height: 100%;
@@ -42,20 +40,8 @@
 
 @media screen and (min-width: 1025px) {
   .postal-container {
-    height: 500px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 8px;
-
 
     .postal-cards-container {
-      height: 100%;
-      margin: 0 10vw;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
 
       .postal-card {
         height: 100%;
