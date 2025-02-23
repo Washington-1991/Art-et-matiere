@@ -85,13 +85,13 @@
 
 @media screen and (max-width: 768px) {
   .postal-container {
-    margin: 8px;
+    margin: 0;
 
     .postal-cards-container {
       margin: 0;
 
       .postal-card {
-        margin: 0;
+        margin: 0 8px;
 
         img {
 
