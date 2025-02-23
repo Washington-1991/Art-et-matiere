@@ -133,52 +133,28 @@
 
         // titulo posee 25% del tamaño de la tarjeta
         .creation-card-title-article {
-          height: 20%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
 
           h2 {
-            color: #9a5f45;
-            font-family: "Dancing Script", serif;
-            font-weight: 600;
-            font-size: 4vw;
+
           }
 
         }
 
         // descripcion precio 10% del tamaño de la tarjeta
         .creation-card-price {
-          height: 5%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+
 
           p {
-            color: #9a5f45;
-            font-size: 2vw;
+
           }
 
         }
 
         // boton posee 15% del tamaño de la tarjeta
         .creation-card-button {
-          height: 10%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 10px 0; // Añadí padding para evitar que el botón se encoja demasiado
 
           button {
-            background-color: #9a5f45;
-            color: #ffffff;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 80%; // Ajuste para que el botón mantenga buen tamaño
-            max-width: 200px;
-            font-size: 1vw;
+
           }
         }
       }
