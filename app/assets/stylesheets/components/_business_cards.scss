@@ -143,13 +143,7 @@
     height: auto;
 
     .business-cards {
-      margin: 8px 80px;
-      height: 100%;
-      width: 100%;
-      display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
 
       .business-card-wp {
         height: 200px;
