@@ -133,7 +133,76 @@
 }
 
 @media screen and (max-width: 768px) {
+  .business-card-container {
+    height: auto;
 
+    .business-cards {
+      flex-direction: column;
+
+      .business-card-wp {
+        margin: 8px 0 4px 0;
+        h2 {
+
+        }
+
+        .button-wp {
+
+          a {
+
+            button {
+
+              &:hover {
+
+              }
+            }
+          }
+        }
+      }
+
+      .business-card-livraison {
+        margin: 4px 0 4px 0;
+
+        p {
+
+        }
+      }
+
+      .business-card-social-media {
+        margin: 4px 0 8px 0;
+
+        h2 {
+          height: 50%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #9a5f45;
+          font-size: 4vh;
+          font-family: "Dancing Script", serif; // Aplicando la nueva fuente
+          font-weight: 400;
+        }
+
+        .business-card-social-media-buttons {
+          height: 50%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          a {
+            height: 50%;
+            width: 50%;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4vh;
+          }
+        }
+      }
+    }
+  }
 }
 
 
