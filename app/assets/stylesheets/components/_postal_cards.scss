@@ -89,12 +89,10 @@
     border: 1px solid black;
 
     .postal-cards-container {
+      margin: 8px;
 
       .postal-card {
-        height: 100%;
-        width: 33%;
-        margin: 0 8px;
-        overflow: hidden;
+
 
         img {
           height: 100%;
