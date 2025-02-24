@@ -82,3 +82,16 @@ production:
   database: art_et_matiere_production
   username: art_et_matiere
   password: <%= ENV["ART_ET_MATIERE_DATABASE_PASSWORD"] %>
+
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  host: localhost
+
+development:
+  <<: *default
+  database: lart_et_matiere_development
