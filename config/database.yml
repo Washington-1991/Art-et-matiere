@@ -82,3 +82,12 @@ production:
   database: art_et_matiere_production
   username: art_et_matiere
   password: <%= ENV["ART_ET_MATIERE_DATABASE_PASSWORD"] %>
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database:
+  username:
+  password:
+  host: localhost
+  port: 5432
