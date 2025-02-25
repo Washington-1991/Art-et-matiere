@@ -95,3 +95,12 @@ default: &default
 development:
   <<: *default
   database: lart_et_matiere_development
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: lart_et_matiere_development
+  pool: 5
+  username: Washington-1991
+  password: Martina
+  host: 127.0.0.1
