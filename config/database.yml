@@ -95,12 +95,3 @@ default: &default
 development:
   <<: *default
   database: lart_et_matiere_development
-
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: your_database_name
-  username: your_username
-  password: your_password
-  host: localhost
-  port: 5432
